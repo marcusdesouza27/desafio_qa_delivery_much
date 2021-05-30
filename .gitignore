@@ -1,0 +1,9 @@
+/cypress/screenshots/*
+/cypress/videos/*
+/cypress/reports/*
+/node_modules
+/cypress/report/*
+/report/*
+/test/
+/cypress/temp/*
+

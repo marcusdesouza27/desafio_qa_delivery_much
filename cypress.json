@@ -1,0 +1,7 @@
+{
+    "baseUrl": "http://challengeqa.staging.devmuch.io",
+    "projectId": "desafio_qa_delivery_much",
+    "defaultCommandTimeOut": 30000,
+    "video": false,
+    "watchForFileChanges": false
+}

@@ -1,0 +1,25 @@
+{
+  "name": "desafio_qa_delivery_much",
+  "version": "1.0.0",
+  "description": "Desafio para avaliação de QA",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "7.4.0",
+    "pure-gen": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm run cypress",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcusdesouza27/desafio_qa_delivery_much.git"
+  },
+  "author": "Marcus Henrique",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcusdesouza27/desafio_qa_delivery_much/issues"
+  },
+  "homepage": "https://github.com/marcusdesouza27/desafio_qa_delivery_much#readme"
+}
