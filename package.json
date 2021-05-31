@@ -5,12 +5,19 @@
   "main": "index.js",
   "dependencies": {
     "cypress": "7.4.0",
+    "path": "^0.12.7",
     "pure-gen": "^2.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.5.1"
+  },
   "scripts": {
-    "test": "npm run cypress",
-    "cypress:open": "cypress open"
+    "test": "npx cypress run",
+    "cypress:open": "cypress open",
+    "allure:generate": "allure generate allure",
+    "allure:open": "allure open allure-report",
+    "allure:clean": "rm -r allure-results/ allure-report || rd /s /q allure-results/ allure-report || true",
+    "test:report":"npm run allure:clean && npm run test && npm run allure:generate && npm run allure:open"
   },
   "repository": {
     "type": "git",

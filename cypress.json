@@ -3,5 +3,10 @@
     "projectId": "desafio_qa_delivery_much",
     "defaultCommandTimeOut": 30000,
     "video": false,
-    "watchForFileChanges": false
+    "watchForFileChanges": false,
+    "env": {
+        "allureResultsPath": "allure-results",
+        "tmsPrefix": "https://url-to-bug-tracking-system/task-",
+        "issuePrefix": "https://url-to-tms/tests/caseId-"
+    }
 }

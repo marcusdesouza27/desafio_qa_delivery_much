@@ -6,4 +6,6 @@
 /report/*
 /test/
 /cypress/temp/*
+/allure-report/*
+/allure-results/*
 
