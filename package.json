@@ -16,12 +16,11 @@
     "cypress:open": "cypress open",
     "allure:generate": "allure generate allure",
     "allure:open": "allure open allure-report",
-    "allure:clean": "rm -r allure-results/ allure-report || rd /s /q allure-results/ allure-report || true",
-    "test:report":"npm run allure:clean && npm run test && npm run allure:generate && npm run allure:open"
+    "allure:clean": "rm -r allure-results/ allure-report || rd /s /q allure-results/ allure-report || true"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marcusdesouza27/desafio_qa_delivery_much.git"
+    "url": "https://github.com/marcusdesouza27/desafio_qa_delivery_much.git"
   },
   "author": "Marcus Henrique",
   "license": "ISC",
